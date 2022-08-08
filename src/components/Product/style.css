@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.cards-main {
+  width: 300px;
+  height: 320px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.container-img {
+  width: 300px;
+  height: 150px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-img > img {
+  width: 162px;
+  height: 162px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 21px;
+}
+
+.category {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+  margin-left: 21px;
+}
+
+.price {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #27ae60;
+  margin-left: 21px;
+}
+
+.button-product {
+  width: 106px;
+  height: 40px;
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  margin-left: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}

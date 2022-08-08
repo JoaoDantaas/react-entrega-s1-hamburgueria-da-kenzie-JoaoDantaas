@@ -1,0 +1,21 @@
+.list-main {
+  /* background-color: rgba(0, 0, 0, 0.198); */
+  width: 940px;
+  height: 735px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  /* margin-left: 115px; */
+  gap: 10px;
+}
+
+@media (max-width: 769px) {
+  .list-main {
+    width: 350px;
+    height: 361px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  }
+}

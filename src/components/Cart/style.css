@@ -1,0 +1,163 @@
+.container-cart-empty {
+  width: 365px;
+  height: 223px;
+}
+
+.title-cart {
+  width: 100%;
+  height: 65px;
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.title-cart h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.bag-empty {
+  height: 158px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bag-empty h2 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+}
+
+.bag-empty h3 {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+}
+
+.container-cart {
+  width: 363px;
+  height: 465px;
+}
+
+.list-cart {
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  height: 465px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.li-cart {
+  display: flex;
+  align-items: center;
+  width: 363px;
+  height: 90px;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.li-cart img {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+.li-cart h1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #333333;
+}
+
+.li-cart h2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+}
+
+.li-cart button {
+  color: #bdbdbd;
+  border: none;
+  background-color: transparent;
+}
+
+.li-cart button:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline red;
+}
+
+.divisao {
+  width: 100%;
+  background: #e0e0e0;
+  height: 2px;
+}
+
+.total {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-total {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.total-cart {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+}
+
+.price-cart {
+  color: #828282;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.remove-all {
+  width: 343px;
+  height: 60px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  color: #828282;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.remove-all:hover {
+  color: red;
+  text-decoration: underline red;
+  background-color: #e0e0e0bd;
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .list-cart {
+    height: 300px;
+  }
+}
